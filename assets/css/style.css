@@ -1,0 +1,166 @@
+body {
+    text-align: center;
+    color: #000f08;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+body * {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+nav {
+    text-align: left;
+    padding: 1.25rem 4rem;
+    position: fixed;
+    width: 100vw;
+    font-size:1rem;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0 1rem;
+    vertical-align:middle;
+
+}
+
+.oscuro{
+    background:#000F08;
+    color:#FFFFFF;
+}
+
+.oscuro a {
+    color:#FFFFFF;
+    text-decoration: none;
+}
+
+.icono{
+    width: 2rem;
+    
+}
+
+.icono img{
+    filter:invert();
+    -webkit-filter:invert(100%);
+}
+
+.hero-section{
+    text-align: right;
+    background-image: url(../img/bg-hero.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 6rem 4rem;
+
+    letter-spacing: 1.5px;
+    color: #FFFFFF;
+    text-shadow: 0px 3px 6px #707070;
+    opacity: 1;
+}
+
+#ubicacion img{
+    width: 50vw;
+}
+
+.centrado{
+    width: 75%;
+    margin: 0 auto;
+
+}
+
+.charla-speaker, .charla-texto, .evento{
+    display:inline-block;
+}
+
+.charla-speaker{
+    /*width: 25%;*/
+    width:25vw;
+    height: 60%;
+    vertical-align: middle;
+}
+
+.charla-texto{
+    /*width:72.5%;*/
+    width:50vw;
+    height:60%;
+    vertical-align: middle;
+    margin-left: 10px;
+    white-space: normal;
+}
+
+.sweet-brown{
+    text-align:left;
+    background:#A4452C;
+    color: #FFFFFF;
+    padding: 3.125rem;
+    white-space: nowrap;
+}
+
+.evento img{
+    width: 75%;
+}
+
+.evento {
+    width:25vw;
+}
+
+h1 {
+    font-weight: 800;
+    font-size:3.75em;
+    margin-bottom:0.25em;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 2.813em;
+}
+
+h3{
+    font-weight: 700;
+    font-size: 2.5em;
+}
+
+h4 {
+    font-size: 2.063em;
+}
+
+h5{
+    font-size:1.25em;
+}
+
+.subtitulo, h4, h5{
+    font-weight:400;
+}
+
+#ubicacion h2 {
+    margin: 1em auto ;
+}
+
+.sweet-brown h3, .sweet-brown h5{
+    margin-bottom:0.813em;
+}
+
+#eventos h2{
+    margin-bottom:3em;
+}
+
+#eventos h3{
+    margin-bottom:1em;
+}
+
+section,footer {
+    margin-top: 4.5rem;
+}
+
+footer {
+    padding: 6.25rem;
+}
+
+footer i{
+    margin: 0 0.25em 0 0.25em;
+}
